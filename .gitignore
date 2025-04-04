@@ -1,0 +1,41 @@
+# 🔒 קבצים רגישים עם סיסמאות
+config.php
+.env
+
+# 🗂️ תיקיות חיצוניות שלא צריך
+/vendor/
+/node_modules/
+
+# 📝 קבצי לוג
+*.log
+
+# 💻 קבצים זמניים של המחשב ומערכות הפעלה
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 🧩 קבצי IDE (עורכי קוד) - Visual Studio Code וכו'
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# 🔄 גיבויים זמניים של PHPStorm / WebStorm
+*.iml
+*.iws
+/out/
+target/
+
+# ⚙️ קבצי קומפילציה זמניים
+*.class
+*.jar
+
+# 📦 ZIP, TAR וכל דחוסים אחרים שלא צריך בגרסה
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 🤖 קבצי cache
+cache/
+tmp/
